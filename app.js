@@ -22,4 +22,4 @@ app.listen(port, function () {
 });
 
 //route listening for a post to /hello
-app.post('/hello', hellobot);
+app.post('/what have i learned', hellobot);

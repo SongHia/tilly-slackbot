@@ -1,7 +1,7 @@
 module.exports = function(req, res, next) {
 	var userName = req.body.user_name;
 	var botPayload = {
-		text: 'Hello, what the heck is going on ' + userName + '!'
+		text: userName + ', do you remember this time? ' + "https://songhitp-today-i-learned.herokuapp.com/archive"
 	};
 
 	//avoid infinite loop
