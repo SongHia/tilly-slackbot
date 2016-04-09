@@ -21,5 +21,5 @@ app.listen(port, function () {
   console.log('Slack bot listening on port ' + port);
 });
 
-//route listening for a post to /hello
-app.post('/what have i learned', hellobot);
+//route listening for a post to /hello, trigger set in slack
+app.post('/hello', hellobot);
